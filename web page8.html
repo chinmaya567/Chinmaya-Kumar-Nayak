@@ -1,0 +1,65 @@
+
+<!DOCTYPE>
+<html>
+    <head>
+        <title> Registration Form </title>
+        <link rel="stylesheet" href="style8.css">
+    </head>
+    <body>
+        <table>
+       <center> <h1> Registration Form </h1></center>
+       <label>Name :</label>
+       <input type="text"  required></br>
+       <label>Email 1 :</label>
+       <input type="text"  required></br>
+       <label>Email 2 :</label>
+       <input type="text"  required></br>
+       <label>Contact No 1 :</label>
+       <input type="text"  required></br>
+       <label>Contact No 2 :</label>
+       <input type="text"  required></br>
+       <div>
+       <label>Gender:</label>
+       <input type="radio" name="gender" value="male"> Male 
+       <input type="radio" name="gender" value="female"> Female</br>
+    </div>
+       <label>Maritial Status:</label>
+       <input type="radio" name="Maritial" value="married"> Married
+        <input type="radio" name="Maritial" value="unmarried"> Unmarried</br>
+        <label for="start">DOB:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="dd-mm-yyyy"></br>
+       <label>Course:</label>
+       <input type="checkbox" id="course 1" name="course 1" value="Program">
+<label for="course 1"> PHP</label>
+<input type="checkbox" id="course 2" name="course 2" value="Program">
+<label for="course 2"> JAVA</label>
+<input type="checkbox" id="course 3" name="course 3" value="Program">
+<label for="course 3"> .NET</label><br>
+<label>Address:</label>
+<textarea id="Address" name="Address" rows="4" cols="50">
+    </textarea></br>
+    <label for="State">Choose a State:</label>
+
+<select name="state" id="state">
+  <option value="Odisha">Odisha</option>
+  <option value="Goa">Goa</option>
+  <option value="Karnataka">Karnataka</option>
+  <option value="Gujrat">Gujrat</option>
+</select></br>
+<form action="/action_page.php">
+    <label for="img">Upload image:</label>
+    <input type="file" id="img" name="img" accept="image/*">
+    
+  </form></br>
+  <label>Password :</label>
+       <input type="password"  required></br>
+       
+<button type="Click Here" form="form1" value="Click Here">Submit</button>
+
+<button type="Clear Fields" form="form2" value="Click Fields">Reset</button></br>
+        </table>
+    </body>
+</html>
+
